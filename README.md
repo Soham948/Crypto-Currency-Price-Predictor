@@ -7,6 +7,9 @@ Ethereum (ETH)
 Gold
 Silver
 Crude Oil
+
+
+
 📊 Visualization of historical and predicted trends
 🌐 Interactive web interface using Streamlit
 🔄 Dynamic asset selection for prediction
@@ -20,6 +23,10 @@ Matplotlib
 Scikit-learn
 TensorFlow / Keras
 yfinance
+
+
+
+
 📂 Project Structure
 Multi-Asset-Predictor/
 │
@@ -30,6 +37,10 @@ Multi-Asset-Predictor/
 ├── utils.py               # Preprocessing & helper functions
 ├── requirements.txt       # Dependencies
 └── README.md              # Documentation
+
+
+
+
 ⚙️ How It Works
 Historical data for selected assets is fetched using yfinance
 Data is cleaned and normalized for training
@@ -37,12 +48,19 @@ Time-series sequences are created
 LSTM model learns patterns from historical price movements
 Model predicts future prices
 Results are displayed with graphs in Streamlit
+
+
+
 📊 Model Details
 Model Type: LSTM (Recurrent Neural Network)
 Input: Historical price sequences
 Output: Future price prediction
 Loss Function: Mean Squared Error (MSE)
 Optimizer: Adam
+
+
+
+
 💻 Installation & Setup
 1️⃣ Clone the repository
 git clone https://github.com/your-username/multi-asset-price-predictor.git
